@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:text="Restaurants Nearby"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i1"
+                tools:srcCompat="@drawable/i1" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SAIBA RESTAURANT" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="213dp"
+                app:srcCompat="@drawable/i2"
+                tools:srcCompat="@drawable/i2" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="LE SAAY" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i3"
+                tools:srcCompat="@drawable/i3" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="THE LAUGHING BUDDHA" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i4"
+                tools:srcCompat="@drawable/i4" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GRUB MONKEYS CAFE" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i5"
+                tools:srcCompat="@drawable/i5" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mc DONALDS" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i6"
+                tools:srcCompat="@drawable/i6" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PIZZA HUT" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i7"
+                tools:srcCompat="@drawable/i7" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="KFC" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i8"
+                tools:srcCompat="@drawable/i8" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SIZZLER RANCH" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i9"
+                tools:srcCompat="@drawable/i9" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DESI FIRANGI" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i10"
+                tools:srcCompat="@drawable/i10" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="BARBEQUE NATION" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i11"
+                tools:srcCompat="@drawable/i11" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="THE EGG FACTORY" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i12"
+                tools:srcCompat="@drawable/i12" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="EYE OF THE TIGER" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i13"
+                tools:srcCompat="@drawable/i13" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PAI TIFFINS" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i14"
+                tools:srcCompat="@drawable/i14" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MAHDUVAN SERAI" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="256dp"
+                app:srcCompat="@drawable/i15"
+                tools:srcCompat="@drawable/i15" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GINGER GARLIC" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>  
