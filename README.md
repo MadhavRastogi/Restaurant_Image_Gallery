@@ -1,3 +1,3 @@
 # Restaurant_Image_Gallery
 
-An android application for displaying images of different restaurants nearby  
+An android application made via Android Studio for displaying images of different restaurants nearby.  
